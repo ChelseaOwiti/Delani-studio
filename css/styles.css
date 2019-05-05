@@ -40,3 +40,14 @@
 .port img{
   padding: 27px;
 }
+.four{
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  background-repeat: no-repeat;
+  height: 950px;
+}
+.contact{
+  color: white;
+  padding-top: 3cm;
+  font-size: 45px;
+}
+
