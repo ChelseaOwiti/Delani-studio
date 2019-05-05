@@ -51,12 +51,11 @@
   font-size: 45px;
 }
 .socials{
-  padding-top: 0cm;
-  margin-top: 0cm;
   display: flex;
-  text-align: center;
-  justify-content: center;
   justify-content: space-evenly;
   padding-left: 12cm;
   padding-right: 12cm;
+}
+footer{
+  padding-top: 1cm;
 }
