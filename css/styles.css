@@ -25,3 +25,15 @@
   color: white;
   padding-top: 4cm;
 }
+.what h1{
+  padding-bottom: 3px;
+}
+.icons{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.three{
+  padding-top: 0cm;
+  padding-bottom: 2cm;
+}
