@@ -59,3 +59,16 @@
 footer{
   padding-top: 1cm;
 }
+/* .showing{
+  display: none;
+  cursor: pointer;
+} */
+.hidden{
+  display: none;
+}
+.hidden2{
+  display: none;
+}
+.hidden3{
+  display: none;
+}
