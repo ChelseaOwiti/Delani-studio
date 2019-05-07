@@ -12,4 +12,8 @@ $(document).ready(function(){
     $("#icon3").toggle();
     $(".hidden3").toggle();
   });
+  // HOVER EFFECT
+  $(".portfolio").hover(function(){
+    $(this).children(".porti").toggle(1000);
+  });
 });
