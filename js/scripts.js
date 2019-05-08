@@ -16,4 +16,15 @@ $(document).ready(function(){
   $(".portfolio").hover(function(){
     $(this).children(".porti").toggle(1000);
   });
+  // COLLECTING INPUT
+  $("button").click(function(event){
+    
+    // var name = $("#name").val();
+    // $(".message").toggle();
+    // $(".message").text = "fggjhgbfv";
+
+    event.preventDefault();
+    var user= document.getElementById("name").value;
+    alert (user + " we have received your message. Thank-you for reaching out to us.")
+  });
 });

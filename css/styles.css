@@ -37,9 +37,6 @@
   padding-top: 0cm;
   padding-bottom: 2cm;
 }
-/* .port img{
-  padding: 27px; */
-
 .four{
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-repeat: no-repeat;
@@ -59,10 +56,6 @@
 footer{
   padding-top: 1cm;
 }
-/* .showing{
-  display: none;
-  cursor: pointer;
-} */
 .hidden{
   display: none;
 }
@@ -89,7 +82,6 @@ footer{
 }
 .portfolio{
   position: relative;
-  /* padding: 27px; */
   margin: 27px;
 }
 .porti{
@@ -101,4 +93,34 @@ footer{
   backface-visibility: visible;
   box-sizing: border-box;
   padding: 40%;
+}
+.message{
+  background: red;
+  display: none;
+}
+form{
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.form-row{
+  width: 100%;
+
+}
+.form-input{
+  width: 45%;
+  margin: 0 2%;
+}
+.form-textarea{
+  width: 100%;
+}
+textarea, input{
+  width: 100%;
+  background: transparent;
+  border: 1px solid white;
+  padding: 5px;
+}
+::placeholder{
+  color: white;
 }
