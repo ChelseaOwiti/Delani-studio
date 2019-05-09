@@ -73,6 +73,7 @@ footer{
 }
 .socials{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .port{
@@ -95,7 +96,7 @@ footer{
   padding: 40%;
 }
 .message{
-  background: red;
+
   display: none;
 }
 form{
@@ -124,3 +125,15 @@ textarea, input{
 ::placeholder{
   color: white;
 }
+@media only screen and (max-width: 1000px) {
+  .socials {
+    padding: 0 10%;
+    width: 100%;
+  }
+ }
+ @media only screen and (max-width: 530px) {
+  .socials {
+    padding: 0;
+    width: 100%;
+  }
+ }
